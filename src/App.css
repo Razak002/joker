@@ -1,38 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Poppins&display=swap');
+
+#root, html, body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+  
+
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100%;
+  background: url('./Image/pexels-pixabay-207983.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+ 
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  color:white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p span{
+  color: red;
+}
+.heading{
+  color:blue;
+}
+button{
+  position: absolute;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: yellow;
+}
+.top{
+  background-color: yellow;
+  padding: 10px;
 }
